@@ -1,0 +1,12 @@
+{
+  "name": "birthday-mailer",
+  "version": "1.0.0",
+  "description": "Equals Money | Technical Assessment",
+  "main": "src/index.ts",
+  "author": "Ian Gilkes <gilkes@gmx.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
