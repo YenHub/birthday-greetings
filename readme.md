@@ -1,4 +1,6 @@
-# Birthday Greetings
+<img src='/assets//birthday-banner.png' width="100%">
+
+<h1 align="center">Birthday Greetings Service</h1>
 
 <details>
 
