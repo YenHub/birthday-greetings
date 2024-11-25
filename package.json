@@ -27,7 +27,8 @@
     "typescript-eslint": "^8.15.0"
   },
   "dependencies": {
-    "@prisma/client": "5.22.0"
+    "@prisma/client": "5.22.0",
+    "winston": "^3.17.0"
   },
   "engines": {
     "node": ">=18.18.0"
