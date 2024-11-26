@@ -77,6 +77,33 @@ yarn prisma:studio
    yarn prisma:migrate
    ```
 
+### Docker
+
+A container has been built for this application
+
+You can start the application by running:
+
+```bash
+docker compose up --build
+```
+
+#### Building the image
+
+To build an image we can use to deploy to production, we just need to run:
+
+```bash
+docker build -t birthday-greetings .
+```
+
+Then, we can push it to our registry, e.g.
+
+```bash
+docker push myregistry.com/birthday-greetings
+```
+
+Consult Docker's [getting started](https://docs.docker.com/go/get-started-sharing/)
+docs for more detail on building and pushing.
+
 ## Questions
 
 ### What kind of tests would you write? Would you use Mocks?
